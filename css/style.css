@@ -45,3 +45,13 @@ a {
 .navbar{background-color: white
 }
 .menu{background-color:yellow}
+.gallery{
+    display:flex;
+    justify-content:space-between;
+}
+.thumbnail{
+    padding: 10px;
+}
+body{
+    background-color: #B4B2B2;
+}
