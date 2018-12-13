@@ -66,33 +66,41 @@ a:hover{
     color:blue;
 }
 .select:hover{
-    color:red;
+    color:blue;
     border: white solid 5px;
 }
 .select{
     color:black;
-    border: 5px solid black ;
+    border: 5px solid white ;
     display:flex;
+
 }
 .container{
     display:flex;
+    border:solid white 5px;
+    margin-top:15px;
+    margin-right:15px;
 }
 .menu{
     width:15%;
     height:50%; 
+        border:solid black 5px;
+    margin-top:15px;
+    margin-right:15px;
+    margin-left:15px;
+    padding-bottom:100%;
+    padding:15px;
 }
 .main{
     width:85%;
-    height:100%;
 }
 #homePic{
     width:100%;
-    height:500px;
 }
-.aboutMain{
-    width:70%; 
-}
-.rightPane{
-    width:100px
 
+.rightPane{
+    width:100px;
+}
+.SMD{
+    margin-top:20px;
 }
