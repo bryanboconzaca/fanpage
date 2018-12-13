@@ -5,6 +5,7 @@ html {
 body {
     height: 100%;
     font-family: 'Quicksand', sans-serif;
+
 }
 a {
     text-decoration: none;
@@ -70,18 +71,28 @@ a:hover{
 }
 .select{
     color:black;
+    border: 5px solid black ;
+    display:flex;
 }
 .container{
     display:flex;
 }
 .menu{
     width:15%;
+    height:50%; 
 }
 .main{
     width:85%;
-    height:50%;
+    height:100%;
 }
 #homePic{
     width:100%;
     height:500px;
+}
+.aboutMain{
+    width:70%; 
+}
+.rightPane{
+    width:100px
+
 }
